@@ -131,8 +131,8 @@ div.firstseason {
   flex-wrap: wrap;
   grid-template-columns: 300px 300px;
   column-gap: 16vh;
-  column-width: 100%;
-  border-bottom: 1px solid #ffffff;
+  /* column-width: 100%; */
+  /* border-bottom: 1px solid #ffffff; */
   
 }
 
@@ -186,24 +186,52 @@ div.extras {
     font-weight: 700;
     padding-bottom: 5vh;
     background: rgb(8,8,8);
+    display: flex;
 }
-
+div.extradiv {
+    width: 15%;
+    font-family: 'Lora' serif;
+    font-size: 14px;
+    
+}
+a.video:hover {
+    color: #ffcc00;
+}
+    
 footer {
     text-align: center;
+    background-color: black;
+    color: #ffffff;
+    margin-right: 48vh;
+    margin-left: 48vh;
+    display: grid;
+}
+h4 {
+    font-family: 'Lora' serif;
+    font-size: 12px;
+}
+.video {
+    font-size: small;
+    color: #ffffff;
 }
 
-.footernav {
-    display: inline-block;
+h5 {
+    text-align: center;
+    font-family: 'Lora' serif;
+    font-size: 10px;
 }
+nav.navbar.navbar-inverse {
+    background-color: rgb(0,0,0);
+    margin: 2vh;
+ }
 
+ ul.nav.navbar-nav.footer {
+    background-color: black;
 
-/* @media (min-width: 600px) {
-    .container {
-      flex-direction: row;
-      flex-wrap: wrap;
-      width: 100%;
-    }
-    header {
-      width: 100%; 
-    }
-} */
+    
+ }
+
+ .navbar-inverse .navbar-nav>li>a {
+    font-size: 10px;
+    color: #ffffff;
+ }
