@@ -1,0 +1,209 @@
+ @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Lora&display=swap'); 
+
+body {
+    background-color: black;
+}
+/* * {
+    border: 1px solid yellow; */
+/* } */
+.banner {
+    background-color: rgb(37,37,37);
+    height: 550px;
+   
+}
+
+.navbar-brand {
+    background-color: black;
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+.nav {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(255,255,255);
+    font-size: 12px;
+    color: black;
+
+}
+
+.navbar-default .navbar-nav>.active>a, .container-fluid {
+   background-color: rgb(255,255,255);
+
+}
+
+.navbar-default .navbar-nav>.active a:hover {
+    background-color: rgb(255,255,255);
+    color: red;
+
+}
+
+i.fas.fa-search {
+    font-size: xx-large;
+}
+
+.input-group {
+    display: flex;
+}
+
+header {
+    font-family: 'Lora', serif;
+    font-size: 48px;
+    text-align: center;
+    color: rgb(255,255,255);
+    padding-top: 3em;
+    }
+
+header:hover {
+    color: yellow;
+}
+
+.spaceghostbanner {
+    align-items: center;
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+.tvpg {
+    height: 60px;
+    padding-left: 90px
+}
+
+h2 {
+    font-family: 'Lora', serif;
+    text-align: right;
+    font-size: 10px;
+    padding-right: 5em;
+    color: rgb(255,255,255);
+}
+
+.connectnow:hover {
+    color: yellow;
+}
+.connectnow {
+    color: rgb(255,255,255);
+    padding: 15px;
+    text-decoration: underline;
+}
+
+i.fa.fa-key {
+    transform: rotate(-135deg);
+    padding: 10px;
+}
+
+div.seasonone h3 {
+    font-size: 30px;
+    font-family: 'Lora', serif;
+    font-weight: 700;
+}
+.grip {
+    background-color: black;
+    color: rgb(255,255,255); 
+}
+
+i.fa-solid.fa-grip:hover {
+    color: yellow;
+}
+
+i.fa-solid.fa-grip {
+    font-size: 60px;
+       
+}
+.button {
+   margin-left: 119em;
+    
+}
+
+main ,div .seasonone {
+    display: flex;
+    flex-wrap: wrap;
+    color: rgb(255,255,255);
+    
+}
+main {
+    width: 100%;
+    margin-left: 5vh;
+}
+
+div.firstseason {
+  display: inline-flex;
+  flex-wrap: wrap;
+  grid-template-columns: 300px 300px;
+  column-gap: 16vh;
+  column-width: 100%;
+  border-bottom: 1px solid #ffffff;
+  
+}
+
+div.secondseason {
+    display: inline-flex;
+    flex-wrap: wrap;
+    grid-template-columns: 300px 300px;
+    column-gap: 16vh;
+    column-width: 100%;
+    margin-bottom: 15vh;
+    /* width: 100%; */
+    
+}
+div.seasontwo {
+    margin-top: 15vh;
+    border-top: 1px solid white;
+    /* width: 100%;
+     */
+}
+div.seasontwo h3 {
+    margin-right: 150vh;
+    font-size: 30px;
+    font-family: 'Lora', serif;
+    font-weight: 700;
+    margin-top: 10vh;
+}
+
+p {
+ width: 70vh;
+ font-family: 'Lora', serif;
+ font-size: 16px;
+}
+
+p:hover {
+    color: #ffcc00;
+}
+
+.extra1, .extra2, .extra3 {
+    height: 300px;
+    width: 300px;
+    padding-top: 8vh;
+}
+
+div.extras {
+    margin-top: 5vh;
+    border-top: 1px solid white;
+    width: 100%;
+    padding-top: 5vh;
+    font-family: 'Lora' serif;
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 5vh;
+    background: rgb(8,8,8);
+}
+
+footer {
+    text-align: center;
+}
+
+.footernav {
+    display: inline-block;
+}
+
+
+/* @media (min-width: 600px) {
+    .container {
+      flex-direction: row;
+      flex-wrap: wrap;
+      width: 100%;
+    }
+    header {
+      width: 100%; 
+    }
+} */
